@@ -1,10 +1,56 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="How Hane processes microphone audio, optional cloud cleanup, local data, credentials, diagnostics, and your privacy choices."><meta name="theme-color" content="#26262f"><meta name="color-scheme" content="light"><title>Privacy Policy · Hane by Sora Lab</title><link rel="stylesheet" href="style.css"></head>
-<body><a class="sr-only" href="#main" style="position:absolute;left:-10000px">Skip to content</a><header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">H</span>Hane <span class="brand-sub">by Sora Lab</span></a><div class="links"><a href="index.html" >Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="support.html" >Support</a></div></nav></header><main class="shell" id="main"><div class="article-header"><div class="eyebrow">Privacy &amp; data</div><h1>Hane Privacy Policy</h1><p class="metadata">Effective 19 November 2026 · Publisher: Sora Lab · Contact: <a href="mailto:hane.support@gmail.com">hane.support@gmail.com</a></p></div><article class="article"><p>Hane is a Windows dictation application published by Sora Lab. It converts speech to text using a speech-recognition model that runs on your computer. Hane also offers optional AI-powered transcript cleanup through an external provider that you select and configure.</p>
-<p>This policy describes how the current Microsoft Store version of Hane accesses and processes information, including what remains on your device and what can be sent to a third party. <strong>Using local dictation does not send your recorded audio or transcript to Sora Lab or to an AI provider. Enabling optional cloud cleanup changes how the transcript is processed, as described below.</strong></p>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How Hane handles microphone audio, optional cloud cleanup, local data, API keys, diagnostics and your privacy choices.">
+<meta name="theme-color" content="#26262f">
+<title>Privacy Policy · Hane by Sora Lab</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="index.html"><img src="hane-mark-32.png" srcset="hane-mark-32.png 1x, hane-mark-64.png 2x" width="28" height="28" alt="">Hane <span class="brand-sub">by Sora Lab</span></a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="support.html">Support</a>
+    </div>
+  </nav>
+</header>
+
+<main class="page" id="main">
+  <div class="measure">
+    <div class="article-head">
+      <h1>Hane Privacy Policy</h1>
+      <p class="meta">Effective 20 November 2026 · Publisher: Sora Lab · Contact: <a href="mailto:hane.support@gmail.com">hane.support@gmail.com</a></p>
+    </div>
+
+    <nav class="contents" aria-labelledby="contents-title">
+      <h2 id="contents-title">Contents</h2>
+      <ol>
+        <li><a href="#1-microphone-audio-and-local-transcription">Microphone audio and local transcription</a></li>
+        <li><a href="#2-optional-cloud-transcript-cleanup">Optional cloud transcript cleanup</a></li>
+        <li><a href="#3-api-credentials">API credentials</a></li>
+        <li><a href="#4-personal-dictionary-and-preferences">Personal dictionary and preferences</a></li>
+        <li><a href="#5-typing-keyboard-access-and-clipboard">Typing, keyboard access, and clipboard</a></li>
+        <li><a href="#6-local-logs-and-diagnostics">Local logs and diagnostics</a></li>
+        <li><a href="#7-network-use-model-files-and-third-party-services">Network use, model files, and third-party services</a></li>
+        <li><a href="#8-data-retention-removal-and-your-choices">Data retention, removal, and your choices</a></li>
+        <li><a href="#9-support-correspondence-and-privacy-requests">Support correspondence and privacy requests</a></li>
+        <li><a href="#10-changes-to-this-policy">Changes to this policy</a></li>
+      </ol>
+    </nav>
+
+    <article class="article">
+<p>Hane is a Windows dictation application published by Sora Lab. It converts speech to text using a speech-recognition model that runs on your computer. Hane also offers optional AI-powered transcript cleanup through an external provider that you select and configure.</p>
+<div class="summary"><p>This policy describes how the current Microsoft Store version of Hane accesses and processes information, including what remains on your device and what can be sent to a third party. <strong>Using local dictation does not send your recorded audio or transcript to Sora Lab or to an AI provider. Enabling optional cloud cleanup changes how the transcript is processed, as described below.</strong></p></div>
 <h2 id="1-microphone-audio-and-local-transcription">1. Microphone audio and local transcription</h2>
 <p>When you hold Hane's configured dictation shortcut, Hane accesses your microphone to record audio for transcription. Speech recognition takes place locally, using a model supplied with the app. Hane processes the audio in memory and sends it to a local transcription worker on your computer; <strong>Hane does not upload microphone audio</strong> to Sora Lab or to a cloud AI provider, including when optional cloud cleanup is enabled.</p>
-<p>Hane does not ordinarily save recordings as audio files. It attempts to clear audio buffers after use; however, memory clearing cannot be guaranteed against operating-system paging, crash snapshots, or other system-level behavior. The Store version does not enable the development-only audio-file diagnostic option.</p>
+<p>Hane does not ordinarily save recordings as audio files. It attempts to clear audio buffers after use; however, memory clearing cannot be guaranteed against operating-system paging, crash snapshots, or other system-level behaviour. The Store version does not enable the development-only audio-file diagnostic option.</p>
 <h2 id="2-optional-cloud-transcript-cleanup">2. Optional cloud transcript cleanup</h2>
 <p>Cloud cleanup is optional. Hane sends transcript <strong>text</strong>, not microphone audio, to a third-party AI service only when automatic cloud cleanup is enabled, a provider is selected, consent for that same provider has been given, an API key for the provider is available, and the dictation meets the app's other submission conditions. If these conditions are not met, or cleanup fails, Hane uses the locally generated transcript.</p>
 <p>The available providers are:</p>
@@ -31,15 +77,15 @@
 <p>Preferences are also stored locally. These can include the dictation shortcut, selected microphone name and identifier, model selection and model-folder path, cloud provider settings and consent choices, log-retention setting, and start-with-Windows preference. Neither your personal dictionary nor your settings are automatically sent to Sora Lab.</p>
 <p>In the Microsoft Store version, Hane's application settings, dictionary, and log files are stored in its Windows packaged-app <strong>LocalState</strong> data area, under <code>%LOCALAPPDATA%\Packages\SoraLab.Hane_…\LocalState</code> (the package family-name suffix is assigned by Windows).</p>
 <h2 id="5-typing-keyboard-access-and-clipboard">5. Typing, keyboard access, and clipboard</h2>
-<p>Hane uses a system-wide keyboard hook to recognize your chosen dictation shortcut. Although this hook can receive keyboard events while other applications are active, Hane uses them to detect the shortcut and does not store or log the keys you type.</p>
+<p>Hane uses a system-wide keyboard hook to recognise your chosen dictation shortcut. Although this hook can receive keyboard events while other applications are active, Hane uses them to detect the shortcut and does not store or log the keys you type.</p>
 <p>To insert a transcript into the application you are using, Hane may place text temporarily on the Windows clipboard and restore its previous contents. Hane uses Windows clipboard options intended to exclude this temporary text from clipboard history, cloud clipboard sync, and clipboard monitors. These protections are <strong>best-effort</strong>: the operating system or a third-party clipboard manager may handle clipboard contents differently, and an application that receives inserted text may retain it under that application's own policies.</p>
 <h2 id="6-local-logs-and-diagnostics">6. Local logs and diagnostics</h2>
-<p>Hane creates local operational logs to help troubleshoot problems. These may contain event and error types, dates or timings, durations, audio-level measurements, text-insertion outcomes, and—when cloud cleanup is used—the provider name, request result, input/output character counts, and processing time. The normal application logs do <strong>not intentionally contain</strong> microphone recordings, full transcripts, clipboard contents, typed keys, or API keys. Hane attempts to redact certain sensitive patterns from logged messages; no redaction system can be guaranteed to catch every possible sensitive value.</p>
+<p>Hane creates local operational logs to help troubleshoot problems. These may contain event and error types, dates or timings, durations, audio-level measurements, text-insertion outcomes, and, when cloud cleanup is used, the provider name, request result, input and output character counts, and processing time. The normal application logs do <strong>not intentionally contain</strong> microphone recordings, full transcripts, clipboard contents, typed keys, or API keys. Hane attempts to redact certain sensitive patterns from logged messages; no redaction system can be guaranteed to catch every possible sensitive value.</p>
 <p>Logs are kept locally. Hane checks their retention period and removes old log files <strong>when the application starts</strong>, rather than continuously while it remains open. You can delete existing local logs using <strong>Clear logs</strong> in Hane. Hane does not run its own analytics, advertising trackers, or remote diagnostic uploads.</p>
 <p>If Hane crashes, <strong>Windows Error Reporting</strong> and Microsoft Store or operating-system services may process diagnostic information according to your Windows settings and Microsoft's privacy practices. A crash report can potentially include information from application memory. Such Microsoft services are separate from Hane's own logging.</p>
 <h2 id="7-network-use-model-files-and-third-party-services">7. Network use, model files, and third-party services</h2>
-<p>The current Store build includes its speech model and does not automatically download speech models or perform its own update checks. Hane's application-initiated outbound requests are used for the optional AI provider connections described above. Microsoft Store can separately handle app distribution, updates, and health information under Microsoft's own services and policies.</p>
-<p>The Hane privacy-policy and support website, if viewed in a browser, is hosted on GitHub Pages. GitHub may process normal website request information (such as IP addresses and technical browser information) under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. The pages do not contain Hane-provided analytics scripts, advertising trackers, or contact forms.</p>
+<p>The current Store build includes its speech model and does not automatically download speech models or perform its own update checks. Hane itself makes network requests only for the optional AI provider connections described above, including Test connection. Microsoft Store can separately handle app distribution, updates, and health information under Microsoft's own services and policies.</p>
+<p>This website, including this policy and the support page, is hosted on GitHub Pages. GitHub may process normal website request information (such as IP addresses and technical browser information) under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. The pages do not contain Hane-provided analytics scripts, advertising trackers, or contact forms.</p>
 <h2 id="8-data-retention-removal-and-your-choices">8. Data retention, removal, and your choices</h2>
 <p>You can control Hane's data in the following ways:</p>
 <ul>
@@ -48,12 +94,27 @@
 <li><strong>Personal dictionary:</strong> review, change, or remove entries in Hane.</li>
 <li><strong>Logs:</strong> clear existing logs and configure the retention period; expired files are checked at the next app startup.</li>
 <li><strong>API keys:</strong> use <strong>Remove key</strong> before uninstalling, or remove saved Hane credentials from Windows Credential Manager afterward.</li>
-<li><strong>App data:</strong> uninstalling the Microsoft Store package removes the app's packaged settings, dictionary, and logs under normal Windows packaged-app uninstall behavior. It does not remove cloud-provider records, information already typed into other apps, or stored API keys.</li>
+<li><strong>App data:</strong> uninstalling the Microsoft Store package removes the app's packaged settings, dictionary, and logs under normal Windows packaged-app uninstall behaviour. It does not remove cloud-provider records, information already typed into other apps, or stored API keys.</li>
 </ul>
-<p>Transcripts or audio still held in Hane's memory are intended to be released when processing finishes or the app exits, but operating-system behavior can affect whether remnants appear in memory paging or crash reports.</p>
+<p>Transcripts or audio still held in Hane's memory are intended to be released when processing finishes or the app exits, but operating-system behaviour can affect whether remnants appear in memory paging or crash reports.</p>
 <h2 id="9-support-correspondence-and-privacy-requests">9. Support correspondence and privacy requests</h2>
 <p>If you email <strong><a href="mailto:hane.support@gmail.com">hane.support@gmail.com</a></strong>, Sora Lab will receive your email address, the content you choose to send, and ordinary email metadata. We use such correspondence to respond to support or privacy requests. Messages are handled through the relevant email provider and may remain in email records as reasonably needed for support, security, or legal purposes. You may ask us to review or delete your support correspondence, subject to applicable obligations. Please do not send API keys, passwords, or sensitive dictated material in support messages.</p>
 <p>For questions about this policy or requests relating to information handled by Sora Lab, email <strong><a href="mailto:hane.support@gmail.com">hane.support@gmail.com</a></strong>. For information already sent to an external AI provider, please also consult that provider's privacy policy and available account controls.</p>
 <h2 id="10-changes-to-this-policy">10. Changes to this policy</h2>
 <p>We may update this policy if Hane's features, third-party integrations, or privacy practices change. The current version and effective date will be shown on this page. Material changes to data processing should be reflected here before or when those changes are made available to users.</p>
-</article></main><footer class="footer"><div class="footer-inner"><span>© 2026 Sora Lab · Hane</span><span><a href="privacy.html">Privacy policy</a> · <a href="support.html">Support</a> · <a href="mailto:hane.support@gmail.com">hane.support@gmail.com</a></span></div></footer></body></html>
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© 2026 Sora Lab</span>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy policy</a>
+      <a href="support.html">Support</a>
+      <a href="mailto:hane.support@gmail.com">hane.support@gmail.com</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Hane Privacy Policy
 
-**Effective date: 19 November 2026**  
+**Effective date: 20 November 2026**  
 **Publisher: Sora Lab**  
 **Privacy and support contact: [hane.support@gmail.com](mailto:hane.support@gmail.com)**
 
@@ -12,7 +12,7 @@ This policy describes how the current Microsoft Store version of Hane accesses a
 
 When you hold Hane's configured dictation shortcut, Hane accesses your microphone to record audio for transcription. Speech recognition takes place locally, using a model supplied with the app. Hane processes the audio in memory and sends it to a local transcription worker on your computer; **Hane does not upload microphone audio** to Sora Lab or to a cloud AI provider, including when optional cloud cleanup is enabled.
 
-Hane does not ordinarily save recordings as audio files. It attempts to clear audio buffers after use; however, memory clearing cannot be guaranteed against operating-system paging, crash snapshots, or other system-level behavior. The Store version does not enable the development-only audio-file diagnostic option.
+Hane does not ordinarily save recordings as audio files. It attempts to clear audio buffers after use; however, memory clearing cannot be guaranteed against operating-system paging, crash snapshots, or other system-level behaviour. The Store version does not enable the development-only audio-file diagnostic option.
 
 ## 2. Optional cloud transcript cleanup
 
@@ -53,13 +53,13 @@ In the Microsoft Store version, Hane's application settings, dictionary, and log
 
 ## 5. Typing, keyboard access, and clipboard
 
-Hane uses a system-wide keyboard hook to recognize your chosen dictation shortcut. Although this hook can receive keyboard events while other applications are active, Hane uses them to detect the shortcut and does not store or log the keys you type.
+Hane uses a system-wide keyboard hook to recognise your chosen dictation shortcut. Although this hook can receive keyboard events while other applications are active, Hane uses them to detect the shortcut and does not store or log the keys you type.
 
 To insert a transcript into the application you are using, Hane may place text temporarily on the Windows clipboard and restore its previous contents. Hane uses Windows clipboard options intended to exclude this temporary text from clipboard history, cloud clipboard sync, and clipboard monitors. These protections are **best-effort**: the operating system or a third-party clipboard manager may handle clipboard contents differently, and an application that receives inserted text may retain it under that application's own policies.
 
 ## 6. Local logs and diagnostics
 
-Hane creates local operational logs to help troubleshoot problems. These may contain event and error types, dates or timings, durations, audio-level measurements, text-insertion outcomes, and—when cloud cleanup is used—the provider name, request result, input/output character counts, and processing time. The normal application logs do **not intentionally contain** microphone recordings, full transcripts, clipboard contents, typed keys, or API keys. Hane attempts to redact certain sensitive patterns from logged messages; no redaction system can be guaranteed to catch every possible sensitive value.
+Hane creates local operational logs to help troubleshoot problems. These may contain event and error types, dates or timings, durations, audio-level measurements, text-insertion outcomes, and, when cloud cleanup is used, the provider name, request result, input and output character counts, and processing time. The normal application logs do **not intentionally contain** microphone recordings, full transcripts, clipboard contents, typed keys, or API keys. Hane attempts to redact certain sensitive patterns from logged messages; no redaction system can be guaranteed to catch every possible sensitive value.
 
 Logs are kept locally. Hane checks their retention period and removes old log files **when the application starts**, rather than continuously while it remains open. You can delete existing local logs using **Clear logs** in Hane. Hane does not run its own analytics, advertising trackers, or remote diagnostic uploads.
 
@@ -67,9 +67,9 @@ If Hane crashes, **Windows Error Reporting** and Microsoft Store or operating-sy
 
 ## 7. Network use, model files, and third-party services
 
-The current Store build includes its speech model and does not automatically download speech models or perform its own update checks. Hane's application-initiated outbound requests are used for the optional AI provider connections described above. Microsoft Store can separately handle app distribution, updates, and health information under Microsoft's own services and policies.
+The current Store build includes its speech model and does not automatically download speech models or perform its own update checks. Hane itself makes network requests only for the optional AI provider connections described above, including Test connection. Microsoft Store can separately handle app distribution, updates, and health information under Microsoft's own services and policies.
 
-The Hane privacy-policy and support website, if viewed in a browser, is hosted on GitHub Pages. GitHub may process normal website request information (such as IP addresses and technical browser information) under [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The pages do not contain Hane-provided analytics scripts, advertising trackers, or contact forms.
+This website, including this policy and the support page, is hosted on GitHub Pages. GitHub may process normal website request information (such as IP addresses and technical browser information) under [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The pages do not contain Hane-provided analytics scripts, advertising trackers, or contact forms.
 
 ## 8. Data retention, removal, and your choices
 
@@ -80,9 +80,9 @@ You can control Hane's data in the following ways:
 - **Personal dictionary:** review, change, or remove entries in Hane.
 - **Logs:** clear existing logs and configure the retention period; expired files are checked at the next app startup.
 - **API keys:** use **Remove key** before uninstalling, or remove saved Hane credentials from Windows Credential Manager afterward.
-- **App data:** uninstalling the Microsoft Store package removes the app's packaged settings, dictionary, and logs under normal Windows packaged-app uninstall behavior. It does not remove cloud-provider records, information already typed into other apps, or stored API keys.
+- **App data:** uninstalling the Microsoft Store package removes the app's packaged settings, dictionary, and logs under normal Windows packaged-app uninstall behaviour. It does not remove cloud-provider records, information already typed into other apps, or stored API keys.
 
-Transcripts or audio still held in Hane's memory are intended to be released when processing finishes or the app exits, but operating-system behavior can affect whether remnants appear in memory paging or crash reports.
+Transcripts or audio still held in Hane's memory are intended to be released when processing finishes or the app exits, but operating-system behaviour can affect whether remnants appear in memory paging or crash reports.
 
 ## 9. Support correspondence and privacy requests
 
