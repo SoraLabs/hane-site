@@ -1,6 +1,7 @@
 # Hane Privacy Policy
 
 **Effective date: 20 November 2026**  
+**Last updated: 23 November 2026**  
 **Publisher: Sora Lab**  
 **Privacy and support contact: [hane.support@gmail.com](mailto:hane.support@gmail.com)**
 
@@ -10,7 +11,7 @@ This policy describes how the current Microsoft Store version of Hane accesses a
 
 ## 1. Microphone audio and local transcription
 
-When you hold Hane's configured dictation shortcut, Hane accesses your microphone to record audio for transcription. Speech recognition takes place locally, using a model supplied with the app. Hane processes the audio in memory and sends it to a local transcription worker on your computer; **Hane does not upload microphone audio** to Sora Lab or to a cloud AI provider, including when optional cloud cleanup is enabled.
+When you hold Hane's configured dictation shortcut, Hane accesses your microphone to record audio for transcription. Recording continues briefly after you release the shortcut, 300 milliseconds by default and adjustable in Settings up to one second, so that your last words are not cut off. Pressing Escape cancels a dictation and stops recording at once. Speech recognition takes place locally, using a model supplied with the app. Hane processes the audio in memory and sends it to a local transcription worker on your computer; **Hane does not upload microphone audio** to Sora Lab or to a cloud AI provider, including when optional cloud cleanup is enabled.
 
 Hane does not ordinarily save recordings as audio files. It attempts to clear audio buffers after use; however, memory clearing cannot be guaranteed against operating-system paging, crash snapshots, or other system-level behaviour. The Store version does not enable the development-only audio-file diagnostic option.
 
